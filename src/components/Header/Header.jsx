@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header className={isScrolled ? 'scrolled' : ''}>
-      <img src="./src/assets/PHOTO-2025-02-19-23-07-15.png" alt="Logo Louisprimium" className="logo" />
+      <img src="./src/assets/Logo.png" alt="Logo Louisprimium" className="logo" />
       <nav>
         <a href="/">Inicio</a>
         <a href="/servicios">Servicios</a>

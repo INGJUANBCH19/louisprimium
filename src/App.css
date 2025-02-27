@@ -14,7 +14,7 @@ html, body {
 
 .main-content {
   flex: 1;
-  padding: -30%;
+  padding: 2px;
   margin-top: 80px; /* Ajusta según la altura del Header */
 }
 
