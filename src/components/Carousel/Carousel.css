@@ -1,0 +1,37 @@
+.carousel-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .platform-card {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .platform-card img {
+    width: 100%;
+    max-width: 200px; /* Limita el ancho máximo de las imágenes */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .platform-card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Estilos para pantallas pequeñas (menos de 768px) */
+  @media (max-width: 768px) {
+    .platform-card img {
+      max-width: 150px; /* Imágenes más pequeñas en móviles */
+    }
+  
+    .platform-card h3 {
+      font-size: 1rem; /* Texto más pequeño en móviles */
+    }
+  }

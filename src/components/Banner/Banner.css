@@ -1,0 +1,13 @@
+.banner {
+    width: 100%;
+    height: 100%; /* Altura para pantallas grandes */
+    overflow: hidden;
+    margin-top: 80px; /* Ajusta según la altura del Header */
+  }
+  
+  /* Estilos para pantallas pequeñas (menos de 768px) */
+  @media (max-width: 768px) {
+    .banner {
+      height: 150%; /* Altura menor para móviles */
+    }
+  }

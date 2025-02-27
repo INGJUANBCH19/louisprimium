@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-content {
+  flex: 1;
+  padding: -30%;
+  margin-top: 80px; /* Ajusta según la altura del Header */
+}
+
+/* Sección de plataformas */
+.platforms-section {
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  max-width: 1200px; /* Limita el ancho para mejor presentación */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.platforms-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+  font-size: 2rem;
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 1024px) {
+  .main-content {
+    padding: 15px;
+    margin-top: 70px; /* Ajuste para tabletas */
+  }
+
+  .platforms-section {
+    margin: 30px auto;
+    padding: 15px;
+  }
+
+  .platforms-section h2 {
+    font-size: 1.8rem; /* Ajuste del tamaño del título */
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+    margin-top: 60px; /* Ajuste para móviles */
+  }
+
+  .platforms-section {
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .platforms-section h2 {
+    font-size: 1.5rem; /* Título más pequeño en móviles */
+  }
+}
